@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Escola Nova</title>
+
+    <link rel="stylesheet" href="h/m.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="logo">🎓 ESCOLA NOVA</div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre nós</a>
+            <a href="#ensino">Ensino</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- PÁGINA INICIAL -->
+    <section class="hero" id="inicio">
+        <div class="conteudo">
+            <h1>Bem-vindo à Escola Nova!</h1>
+
+            <p>
+                Aprender hoje para construir
+                um futuro melhor.
+            </p>
+
+            <a href="#sobre" class="botao">
+                Conheça a nossa escola
+            </a>
+        </div>
+    </section>
+
+    <!-- SOBRE A ESCOLA -->
+    <section id="sobre" class="secao">
+        <h2>Sobre a Escola Nova</h2>
+
+        <p>
+            A Escola Nova é uma instituição dedicada
+            à educação e à formação de alunos.
+            Promovemos o conhecimento, a disciplina,
+            o respeito e a criatividade para preparar
+            os nossos estudantes para um futuro brilhante.
+        </p>
+    </section>
+
+    <!-- ENSINO -->
+    <section id="ensino" class="ensino secao">
+        <h2>O que oferecemos</h2>
+
+        <div class="cartoes">
+
+            <div class="cartao">
+                <h3>📚 Educação</h3>
+                <p>
+                    Ensino e aprendizagem de qualidade
+                    para todos os nossos alunos.
+                </p>
+            </div>
+
+            <div class="cartao">
+                <h3>💻 Tecnologia</h3>
+                <p>
+                    Preparação para os desafios
+                    do mundo moderno.
+                </p>
+            </div>
+
+            <div class="cartao">
+                <h3>🌟 Futuro</h3>
+                <p>
+                    Conhecimento e competências
+                    para alcançar grandes objetivos.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="secao contacto">
+        <h2>Contacte-nos</h2>
+
+        <p>
+            Quer saber mais sobre a Escola Nova?
+            Estamos disponíveis para ajudar.
+        </p>
+
+        <button onclick="mostrarMensagem()">
+            Fale connosco
+        </button>
+
+        <p id="mensagem"></p>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>
+            &copy; 2026 Escola Nova.
+            Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
